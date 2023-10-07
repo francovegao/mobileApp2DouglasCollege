@@ -1,0 +1,10 @@
+
+<resources>
+    <string name="app_name">Content_Provider_In_Android</string>
+    <string name="hintTextName">Enter Student Name</string>
+    <string name="hintTextAge">Enter Age</string>
+    <string name="hintTextProgram">Enter Program</string>
+    <string name="heading">Content Provider In Android</string>
+    <string name="insertButtontext">Insert Data</string>
+    <string name="loadButtonText">Load Data</string>
+</resources>
