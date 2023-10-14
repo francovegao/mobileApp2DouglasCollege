@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -36,8 +37,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void broadcastIntent(View view) {
+        String url = "https://www.youtube.com";
         Intent intent = new Intent();
-        intent.putExtra("someKey", "Some Value");
+        intent.putExtra("someKey", url);
         intent.setAction("com.example.broadcastintentdemo");
         intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
         sendBroadcast(intent);
