@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#1B5E20</color>
+    <color name="green_dark">#003300</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="blue">#0288D1</color>
+    <color name="blue_dark">#005B9F</color>
+    <color name="blue_light">#81D4FA</color>
+
+    <color name="my_green">#006b54</color>
+    <color name="my_green_light">#6cfacf</color>
+    <color name="my_purple">#4b635a</color>
+    <color name="my_purple_light">#cee9dc</color>
+    <color name="my_blue">#406376</color>
+    <color name="my_blue_light">#c3e8fe</color>
+    <color name="my_red">#ba1a1a</color>
+    <color name="my_red_light">#ffdad6</color>
+    <color name="my_blue_back">#fbfdf9</color>
+
+<!--    <color name="my_green">#006e15</color>
+    <color name="my_green_light">#73ff70</color>
+    <color name="my_purple">#b1008d</color>
+    <color name="my_purple_light">#ffd8ec</color>
+    <color name="my_blue">#006971</color>
+    <color name="my_blue_light">#83f3ff</color>
+    <color name="my_red">#ba1a1a</color>
+    <color name="my_red_light">#ffdad6</color>
+    <color name="my_blue_back">#f3feff</color>-->
+
+    <color name="my_green_dt">#00e638</color>
+    <color name="my_green_dark_dt">#00530e</color>
+    <color name="my_green_onprimary_dt">#003907</color>
+    <color name="my_purple_dt">#ffaede</color>
+    <color name="my_purple_dark_dt">#87006b</color>
+    <color name="my_purple_onsecondary_dt">#60004b</color>
+    <color name="dark_background">#002022</color>
+
+</resources>

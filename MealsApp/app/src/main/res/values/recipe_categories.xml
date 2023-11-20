@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_categories">
+        <item>Breakfast</item>
+        <item>Dessert</item>
+        <item>Miscellaneous</item>
+        <item>Pasta</item>
+        <item>Side</item>
+        <item>Starter</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+        <item>Seafood</item>
+        <item>Beef</item>
+        <item>Chicken</item>
+        <item>Goat</item>
+        <item>Lamb</item>
+        <item>Pork</item>
+    </string-array>
+</resources>

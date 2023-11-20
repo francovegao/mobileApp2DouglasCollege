@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">The Meals App</string>
+    <string name="primary_color">Primary color</string>
+    <string name="button">Button</string>
+    <string name="secondary_color">Secondary color</string>
+    <string name="email_icon">email icon</string>
+    <string name="progress_card">Consumed Calories</string>
+    <string name="meal_planner_card">Plan Meals</string>
+    <string name="calorie_tracker_card">Track Calories</string>
+
+    <string name="meal_plan_title">Meal Plans and Recipes</string>
+    <string name="find_recipes_card">Find Recipes</string>
+    <string name="create_meal_plan">Create a meal plan</string>
+    <string name="view_meal_plan">View created meal plans</string>
+
+    <string name="calorie_tracker_title">Calories Tracker</string>
+    <string name="breakfast_card">Breakfast</string>
+    <string name="lunch_card">Lunch</string>
+    <string name="dinner_card">Dinner</string>
+    <string name="snack_card">Snack</string>
+
+    <string name="find_recipes_title">Find Recipes</string>
+
+    <string name="log_calories_title">Log Calories</string>
+    <string name="log_calories_card">Calories Information to Log</string>
+
+    <string name="search_button">Search</string>
+
+    <string name="create_meal_plan_title">Create New Meal Plan</string>
+    <string name="new_meal_plan">New Meal Plan</string>
+    <string name="day1">Day 1</string>
+    <string name="day2">Day 2</string>
+    <string name="day3">Day 3</string>
+    <string name="day4">Day 4</string>
+    <string name="day5">Day 5</string>
+    <string name="day6">Day 6</string>
+    <string name="day7">Day 7</string>
+
+    <string name="view_meal_plans_title">Saved Meal Plans</string>
+    <string name="saved_meal_plan_title">Meal Plan Title</string>
+
+</resources>
