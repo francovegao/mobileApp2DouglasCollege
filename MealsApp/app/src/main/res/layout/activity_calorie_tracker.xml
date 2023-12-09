@@ -59,7 +59,8 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:drawableLeft="@drawable/calendar_drawable"
-                    android:drawablePadding="2dp" />
+                    android:drawablePadding="2dp"
+                    android:onClick="selectDate"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"

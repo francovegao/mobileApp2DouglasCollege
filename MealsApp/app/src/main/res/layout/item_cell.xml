@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:maxLines="1"
         android:textColor="@color/black"
-        android:textSize="20sp"/>
+        android:textSize="16sp"/>
 
     <RelativeLayout
         android:orientation="horizontal"
@@ -36,7 +36,7 @@
             android:text="Qty: "
             android:layout_marginTop="2dp"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:layout_alignParentLeft="true"/>
 
         <TextView
@@ -47,7 +47,7 @@
             android:maxLines="1"
             android:text="1"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:layout_toEndOf="@+id/quantityTag"/>
 
         <TextView
@@ -56,9 +56,9 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="2dp"
             android:layout_toStartOf="@+id/cellTotalCalories"
-            android:text="Calories: "
+            android:text="Cal: "
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/cellTotalCalories"
@@ -68,7 +68,7 @@
             android:maxLines="1"
             android:layout_marginTop="2dp"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:layout_alignParentRight="true"/>
     </RelativeLayout>
     </LinearLayout>

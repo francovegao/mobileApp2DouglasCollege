@@ -19,12 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HorizontalRecyclerAdapter extends RecyclerView.Adapter<HorizontalRecyclerAdapter.ViewHolder> {
-
     // List with String type
     private ArrayList<String> ingredientsList;
     private ArrayList<String> measuresList;
     private Context context;
-
     public HorizontalRecyclerAdapter(Context context, ArrayList<String> ingredients, ArrayList<String> measurements){
         this.context = context;
         ingredientsList = ingredients;

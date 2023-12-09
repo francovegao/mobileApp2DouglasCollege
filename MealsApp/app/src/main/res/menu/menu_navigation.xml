@@ -4,16 +4,16 @@
     <item
         android:id="@+id/home"
         android:title="Home"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/home_icon_foreground"/>
 
     <item
         android:id="@+id/mealPlanner"
         android:title="Meal Planner"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/lunch_image"/>
 
     <item
         android:id="@+id/calorieTracker"
         android:title="Calorie Tracker"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/calorie_tracker"/>
 
 </menu>

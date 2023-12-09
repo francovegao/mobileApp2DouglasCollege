@@ -30,12 +30,9 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class MealPlanner extends AppCompatActivity {
-
     private ActivityMealPlannerBinding binding;
-
     private RequestQueue requestQueue;
     private ArrayList<Recipe> randomRecipeArrayList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,7 +74,6 @@ public class MealPlanner extends AppCompatActivity {
             }
         });
     }
-
     private void runthread() {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -92,7 +88,6 @@ public class MealPlanner extends AppCompatActivity {
             }
         }, 500);
     }
-
     private void runthread2() {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -107,12 +102,10 @@ public class MealPlanner extends AppCompatActivity {
             }
         }, 1000);
     }
-
     public void openFindRecipeActivity(View view) {
         startActivity(new Intent(getApplicationContext(), FindRecipes.class));
         overridePendingTransition(0,0);
     }
-
     private void fetchRecipes(TextView randomRecipeTitle, ImageView randomRecipeImage, CardView cardView){
         String url = "https://www.themealdb.com/api/json/v1/1/random.php";
 
@@ -185,7 +178,6 @@ public class MealPlanner extends AppCompatActivity {
         });
         requestQueue.add(jsonObjectRequest);
     }
-
     public void addListenerToCard(CardView cardView, Recipe recipe){
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -237,12 +229,10 @@ public class MealPlanner extends AppCompatActivity {
             }
         });
     }
-
     public void openCreateMealPlanActivity(View view) {
         startActivity(new Intent(getApplicationContext(),CreateMealPlan.class));
         overridePendingTransition(0,0);
     }
-
     public void openViewCreatedMealPLansActivity(View view) {
         startActivity(new Intent(getApplicationContext(),ViewCreatedMealPlans.class));
         overridePendingTransition(0,0);

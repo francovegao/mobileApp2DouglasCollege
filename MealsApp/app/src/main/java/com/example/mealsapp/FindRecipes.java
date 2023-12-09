@@ -25,12 +25,9 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class FindRecipes extends AppCompatActivity {
-
     private ActivityFindRecipesBinding binding;
-
     private RequestQueue requestQueue;
     private ArrayList<Recipe> recipeArrayList;
-
     RecyclerView.LayoutManager layoutManager;
     RecyclerView.Adapter adapter;
 
@@ -132,19 +129,15 @@ public class FindRecipes extends AppCompatActivity {
         });
         requestQueue.add(jsonObjectRequest);
     }
-
     public void searchByIngredient(View view) {
         String searchString= binding.foodSearchEditText.getText().toString();
         recipeArrayList.clear();
 
         fetchRecipesByIngredient(searchString);
     }
-
     public void searchByCategory(View view) {
         String searchString= binding.categoriesSpinner.getSelectedItem().toString();
         recipeArrayList.clear();
         fetchRecipesByCategory(searchString);
     }
-
-
 }

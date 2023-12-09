@@ -11,13 +11,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class TimerService extends Service {
-
-    // declaring object of MediaPlayer
-    //private MediaPlayer player;
     private Timer timer;
-
     @Override
-
     // execution of service will start
     // on calling this method
     public int onStartCommand(Intent intent, int flags, int startId) {

@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.mealsapp.databinding.ActivityCreateMealPlanBinding;
-import com.example.mealsapp.databinding.ActivityMainBinding;
 
 public class CreateMealPlan extends AppCompatActivity {
 

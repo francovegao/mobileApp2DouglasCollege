@@ -22,10 +22,10 @@
     <string name="find_recipes_title">Find Recipes</string>
 
     <string name="log_calories_title">Log Calories</string>
-    <string name="log_calories_card">Calories Information to Log</string>
+    <string name="log_calories_card">Calories Info</string>
+    <string name="save_button">Save</string>
 
     <string name="search_button">Search</string>
-
     <string name="create_meal_plan_title">Create New Meal Plan</string>
     <string name="new_meal_plan">New Meal Plan</string>
     <string name="day1">Day 1</string>
